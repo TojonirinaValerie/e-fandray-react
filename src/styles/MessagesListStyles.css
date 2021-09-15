@@ -1,0 +1,117 @@
+.messagesList{
+    background-color: #F0F0F0;
+    width: 50vw;
+    min-width: 250px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.ml-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.ml-title h1{
+    font-size: 1.3em;
+    padding: 0 10px;
+}
+.ml-title p{
+    font-size: 1.2em;
+    padding: 0 10px;
+    color: #BBBBBB;
+    background-color: #E5E5E5;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.ml-list{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    text-align: left;
+}
+.ml-list-item{
+    list-style: none;
+}
+
+.itemMessageList{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+.itemMessageList:hover{
+    background-color: #F9DBDDAA;
+    border-left: 5px solid #B1587CAA;
+    padding-left: 0;
+}
+.itemMessageActive{
+    background-color: #F9DBDD;
+    padding-left: 0;
+    border-left: 5px solid #B1587C;
+}
+
+
+.itemML-pictures img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.itemList-infos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.itemList-info1, .itemList-info2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.itemList-pseudo, .itemList-date, .itemList-message, .itemList-newMP{
+    margin: 0;
+    padding: 0;
+    max-height: 1.3em;
+}
+.itemList-pseudo{
+    font-size: 1em;
+    font-weight: 530;
+    color: #000000;
+}
+.itemList-date{
+    color: #B0B0B0;
+    font-size: 1em;
+}
+.itemList-message{
+    font-size: 1em;
+    color: #555555;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.message-non-lus{
+    font-weight: bold;
+}
+.itemList-newMP span{
+    background-color: #F95656;
+    border-radius: 100%;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 0.6em;
+}
+.plus9{
+    padding: 5px 4px;
+}
+.moins9{
+    padding: 5px 8px;
+}

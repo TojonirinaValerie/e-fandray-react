@@ -1,0 +1,41 @@
+.sd-title{
+    font-size: 1.2em;
+    font-weight: 530;
+    margin: 0;
+    padding: 5px 0;
+}
+.itemDiscussion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sd-conteneur{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.sd-conteneur ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+    height: 100%;
+}
+.sd-conteneur ul li{
+    padding: 0;
+    margin: 0;
+}
+.id-profil img{
+    width: 40px;
+    border-radius: 50%;
+}
+.status{
+    position: relative;
+    left: -11px;
+    top: 9px;
+    background-color: #4FCF5C;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: solid 3px #FFF;
+}

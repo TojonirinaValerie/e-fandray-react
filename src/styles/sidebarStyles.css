@@ -1,0 +1,28 @@
+.sidebar{
+    padding: 20px 10px;
+    background-color: #4849A1;
+    width: 70px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3em;
+    margin: 10px;
+    margin-right: 0;
+    border-radius: 10px;
+}
+
+.nav{
+    color: #FFFFFF77;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.nav:hover{
+    color: #FFFFFFAA;
+    background-color: #FFFFFF55;
+}
+
+.activeNav{
+    color: #FFFFFF;
+    background-color: #FFFFFF44;
+}
