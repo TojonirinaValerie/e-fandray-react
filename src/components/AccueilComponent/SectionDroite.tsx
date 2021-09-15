@@ -17,12 +17,11 @@ const SectionDroite: React.FC<SectionDroiteProps> = () => {
                             <li><ItemDiscussion profil={item.picture_profil} pseudo={item.pseudo}/></li>        
                         )
                     })}
-                    <li><ItemDiscussion profil="./media/PD11P.jpg" pseudo="Tojonirina Tsilavina"/></li>
-                    <li><ItemDiscussion profil="./media/PD11P.jpg" pseudo="Tojonirina Tsilavina"/></li>
-                    <li><ItemDiscussion profil="./media/PD11P.jpg" pseudo="Tojonirina Tsilavina"/></li>
-                    <li><ItemDiscussion profil="./media/PD11P.jpg" pseudo="Tojonirina Tsilavina"/></li>
-                    <li><ItemDiscussion profil="./media/PD11P.jpg" pseudo="Tojonirina Tsilavina"/></li>
-                    <li><ItemDiscussion profil="./media/PD11P.jpg" pseudo="Tojonirina Tsilavina"/></li>
+                    { datas.map( (item) => {
+                        return(
+                            <li><ItemDiscussion profil={item.picture_profil} pseudo={item.pseudo}/></li>        
+                        )
+                    })}
                 </ul>
             </div>
         </div>
